@@ -1,0 +1,41 @@
+﻿
+<meta charset=utf8 />
+<h2 class="content-block">Fahrzeuge &Uumlbersicht</h2>
+
+
+@(Html.DevExtreme().DataGrid<DevExtremeMvcApp1.Models.GetIndexUebersicht_Result>()
+    .DataSource(ds => ds.WebApi()
+        .RouteName("uebersicht_datenApi")
+        .LoadAction("Get")
+        .InsertAction("Post")
+        .UpdateAction("Put")
+        .DeleteAction("Delete")
+        .Key("Id")
+    )
+    .RemoteOperations(true)
+    .Columns(columns => {
+
+        columns.AddFor(m => m.Id);
+
+        columns.AddFor(m => m.Kennzeichen);
+
+        columns.AddFor(m => m.Marke);
+
+        columns.AddFor(m => m.Modell);
+
+        columns.AddFor(m => m.Fahrzeughalter);
+
+        columns.AddFor(m => m.Niederlassung);
+
+        columns.AddFor(m => m.Kraftstoff);
+
+        columns.AddFor(m => m.Neuwagen);
+
+        columns.AddFor(m => m.Status);
+    })
+    .Editing(e => e
+        .AllowAdding(true)
+        .AllowUpdating(true)
+        .AllowDeleting(true)
+    )
+)

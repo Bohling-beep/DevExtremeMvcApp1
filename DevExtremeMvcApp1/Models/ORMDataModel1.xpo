@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="f093818b-acac-41f8-84f0-1f03f2dbd127" namespace="DevExtremeMvcApp1.Models.FuhrparkContext" dataBaseShemaInfo="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" generateConnectionHelper="true" generateStoredProcedures="true" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" connectionStringName="(localdb)MSSQLLocalDBFuhrparkContext" createdInVersion="20.1.3.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="false" lastModifiedInVersion="20.1.3.0" name="FuhrparkContext" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <comments>
+    <dataBaseObjectModelHasComments Id="9785f7be-7512-4b52-9dc2-c264fb6e03bc">
+      <comment Id="cbefa2bb-4ef1-4ee7-8dd8-646103e820bc" text="The 'PK___EFMigrationsHistory' index is ignored, because 'MigrationId' is a key" name="P__EFMigrationsHistoryComment">
+        <subjects>
+          <commentReferencesSubjects Id="4deb1b98-a205-4abe-8c8e-7c634e2ab242">
+            <xpObjectMoniker Id="d4287a99-c74b-4f81-a19a-65db530435a9" />
+          </commentReferencesSubjects>
+        </subjects>
+      </comment>
+    </dataBaseObjectModelHasComments>
+    <dataBaseObjectModelHasComments Id="8b6db416-54c4-4e68-be06-8f0591072dd8">
+      <comment Id="946c3604-8e5f-4060-ac41-34e01082ff68" text="The 'PK__tmp_ms_x__3214EC07490FF9AF' index is ignored, because 'Id' is a key" name="uebersicht_datenComment">
+        <subjects>
+          <commentReferencesSubjects Id="7f514863-4828-4d2d-842d-4dd7dad94e12">
+            <xpObjectMoniker Id="ad621ea9-f1bc-42c6-a93d-db4afddebe8f" />
+          </commentReferencesSubjects>
+        </subjects>
+      </comment>
+    </dataBaseObjectModelHasComments>
+  </comments>
+  <storedProcedures>
+    <dataBaseObjectModelHasStoredProcedures Id="ac4af747-9002-484f-8b13-aee32e71b9b0">
+      <storedProcedure Id="93b3d34e-7b11-41bc-9e93-5380bc93f003" name="GetEinkaufId">
+        <generalXpObject>
+          <storedProcedureReferencesGeneralXpObject Id="7f8bbae0-39f9-45b2-a44f-8aca2e48893b">
+            <resultXpObjectMoniker Id="2b99f6ec-3b05-4892-90b5-5284b8461f74" />
+          </storedProcedureReferencesGeneralXpObject>
+        </generalXpObject>
+      </storedProcedure>
+    </dataBaseObjectModelHasStoredProcedures>
+    <dataBaseObjectModelHasStoredProcedures Id="f46c04dc-6da6-431a-bd04-5e3e35007e2d">
+      <storedProcedure Id="63633d77-3073-4e0b-9883-2d0124fc8bcf" name="GetIndexUebersicht">
+        <generalXpObject>
+          <storedProcedureReferencesGeneralXpObject Id="d73b5286-2d74-455a-a574-6ec7a5e343e0">
+            <resultXpObjectMoniker Id="00b7b7ee-48ce-4dfa-9bd4-885679fe83a7" />
+          </storedProcedureReferencesGeneralXpObject>
+        </generalXpObject>
+      </storedProcedure>
+    </dataBaseObjectModelHasStoredProcedures>
+  </storedProcedures>
+  <classes>
+    <dataBaseObjectModelHasClasses Id="5f26a0e8-069a-42a8-b173-b772872f7e72">
+      <xpObject Id="d4287a99-c74b-4f81-a19a-65db530435a9" name="P__EFMigrationsHistory" baseClass="XPLiteObject" userFileName="P__EFMigrationsHistory" designerFileName="P__EFMigrationsHistory.Designer" className="P__EFMigrationsHistory" virtualBaseClass="XPLiteObject" persistent="__EFMigrationsHistory" virtualName="P__EFMigrationsHistory">
+        <fields>
+          <generalXpObjectHasFields Id="5273701e-283b-42c9-94a2-4d8551b4eb7e">
+            <field Id="9abbe562-a22a-430e-a1e3-55c6bc58a6a1" name="MigrationId" key="true" persistent="MigrationId" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="150" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="262958a8-d241-4605-8dc6-ac889f1d488e">
+            <field Id="4fdbe0e9-ae51-4939-9d1b-430eea4672ae" name="ProductVersion" persistent="ProductVersion" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="32" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="b10541eb-71a6-472b-8e96-b2fd3f1de8ef">
+      <xpObject Id="ad621ea9-f1bc-42c6-a93d-db4afddebe8f" name="uebersicht_daten" baseClass="XPLiteObject" userFileName="uebersicht_daten" designerFileName="uebersicht_daten.Designer" className="uebersicht_daten" virtualBaseClass="XPLiteObject" persistent="uebersicht_daten" virtualName="uebersicht_daten">
+        <fields>
+          <generalXpObjectHasFields Id="a69679f0-ffdb-46c1-a6ed-ae9d79885955">
+            <field Id="774513a2-f37b-49e5-bf6c-ce0386f5ad71" name="Id" columnType="Int32" key="true" isIdentity="true" persistent="Id" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="5a3818fc-bf52-4753-8355-5b729de54569">
+            <field Id="7c6f2b20-4b4d-4f8c-905a-1cbcbd1e8546" name="Kennzeichen" persistent="Kennzeichen" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="10" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="cdea6761-0046-4232-b466-a759a092275d">
+            <field Id="5cb0892c-00a8-4537-9604-4f4fb35a4d21" name="Marke" persistent="Marke" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="10" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d8028f80-c023-401d-99f6-9826bdc946fe">
+            <field Id="000d599b-cba4-4e7a-9a1d-bdfcf3207607" name="Modell" persistent="Modell" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="10" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="83316e30-9d7a-4175-96d2-a61c1f47503a">
+            <field Id="0042126c-4c83-4422-a8c7-e8963480cf44" name="Fahrzeughalter" persistent="Fahrzeughalter" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="10" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="fcc6bad8-260e-4c25-9c41-f622a4f64d6e">
+            <field Id="ec54b7c4-bb87-4e9e-8143-eaf2600cd470" name="Niederlassung" persistent="Niederlassung" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="10" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="2fecddeb-04c3-445c-b5f1-23935130c1b3">
+            <field Id="c9309ca5-3492-4318-b932-8ff3e9c21873" name="Kraftstoff" persistent="Kraftstoff" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="10" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="616f5a75-8395-43b2-bf2b-4ee4cd591a6d">
+            <field Id="dfb04def-5331-441e-a7f8-4a2bc0db4760" name="Neuwagen" columnType="Boolean" persistent="Neuwagen" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" defaultValue="Boolean#False" dbDefaultValue="((0))" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b99766cb-c506-45c1-a92d-13a8848be135">
+            <field Id="863d6440-14ff-4eaa-85b6-bd417f693edd" name="Status" persistent="Status" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="25798496-9d3b-4316-886b-7ccc59862b12">
+      <resultXpObject Id="2b99f6ec-3b05-4892-90b5-5284b8461f74" name="GetEinkaufIdResult" virtualName="GetEinkaufIdResult">
+        <fields>
+          <generalXpObjectHasFields Id="48477a54-54e5-45f0-b302-bf4f7966e0ec">
+            <simpleField Id="2b4262ac-fad4-4ecc-9991-afae7578d679" name="EinkaufId" columnType="Int32" virtualColumnType="Int32" persistent="EinkaufId" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="fa3f0f22-4862-454e-b035-38cd8ba18969">
+            <simpleField Id="37d2406c-160d-42bb-a6a7-f21104e43a3d" name="ListenpreisB" columnType="Decimal" virtualColumnType="Decimal" persistent="ListenpreisB" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="328268f7-4657-42e0-a03a-ea4c7bc60258">
+            <simpleField Id="9b58fabb-3dbb-4efc-902d-eba9162948cb" name="EKPreisB" columnType="Decimal" virtualColumnType="Decimal" persistent="EKPreisB" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="83dfbec7-2196-4ef8-a85e-ae6d6c346de9">
+            <simpleField Id="570c605a-65d9-4cd3-a55a-2e2b55c76da9" name="Erstzulassung" columnType="DateTime" virtualColumnType="DateTime" persistent="Erstzulassung" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="4f146f30-0ddc-4165-a1ea-28082b0bd42d">
+            <simpleField Id="4c9dc127-99fc-4279-93a5-d49ac45ef276" name="KMDatum" columnType="DateTime" virtualColumnType="DateTime" persistent="KMDatum" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="49391496-fb0f-4636-bdc6-9fd1a080e148">
+            <simpleField Id="24dc0de7-2adf-4adb-bb6a-cb083148a99a" name="KMStand" virtualColumnType="String" persistent="KMStand" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="e52ea90a-e00d-4be0-a579-364a3a3e1685">
+            <simpleField Id="f9044532-17aa-4a11-9410-bc2df332ac8f" name="Kaufdatum" columnType="DateTime" virtualColumnType="DateTime" persistent="Kaufdatum" />
+          </generalXpObjectHasFields>
+        </fields>
+      </resultXpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="b7bf9add-0aa9-44c7-a5c2-61fcd0b8cd99">
+      <resultXpObject Id="00b7b7ee-48ce-4dfa-9bd4-885679fe83a7" name="GetIndexUebersichtResult" virtualName="GetIndexUebersichtResult">
+        <fields>
+          <generalXpObjectHasFields Id="d45110da-7a05-455a-9727-2fa60dc31479">
+            <simpleField Id="ebc00eb7-44b6-4d27-ae83-a79faacf7e74" name="Id" columnType="Int32" virtualColumnType="Int32" persistent="Id" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="c9565336-b8ea-4d08-8fb5-996abb633462">
+            <simpleField Id="46287462-ae18-4ca2-9ae6-55d8556390c5" name="Kennzeichen" virtualColumnType="String" persistent="Kennzeichen" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="c0bd7887-eba2-4c3a-947e-70616eb6df94">
+            <simpleField Id="1334dad0-9faf-4e07-8764-526f6e6aa1a4" name="Marke" virtualColumnType="String" persistent="Marke" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="491d4811-3e8d-44d3-b5be-65f391a806b7">
+            <simpleField Id="e7d534ca-f243-49c7-908f-b314b5c7302c" name="Modell" virtualColumnType="String" persistent="Modell" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="abf9bd56-fddb-4d47-93c0-51f5be1a1f88">
+            <simpleField Id="7cd1af12-c446-40bb-915c-c5eb0c25210b" name="Fahrzeughalter" virtualColumnType="String" persistent="Fahrzeughalter" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="8c5e2f8c-012f-4c8e-bd48-dc5929f3a85f">
+            <simpleField Id="95494056-126e-4f03-8113-d34e2acb4d8a" name="Niederlassung" virtualColumnType="String" persistent="Niederlassung" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="061728eb-fc6e-4f99-be5d-e082746a3357">
+            <simpleField Id="7c07924c-c6d3-4f12-9ccc-e3f25d0d8a5c" name="Kraftstoff" virtualColumnType="String" persistent="Kraftstoff" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="ba994df5-faf3-4638-99bf-956e915e7948">
+            <simpleField Id="da373b95-4c3d-471a-9cd6-39366e3249b9" name="Neuwagen" columnType="Boolean" virtualColumnType="Boolean" persistent="Neuwagen" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="42329a99-a943-4aa6-b0e5-f1061f3c446e">
+            <simpleField Id="fa7f4266-8aa5-4102-8b59-d5a30fb1bb09" name="Status" virtualColumnType="String" persistent="Status" />
+          </generalXpObjectHasFields>
+        </fields>
+      </resultXpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>

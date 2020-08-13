@@ -33,7 +33,7 @@ namespace DevExtremeMvcApp1.Controllers {
         }
 
 
-        public ActionResult uebersicht()
+        public ActionResult uebersicht2()
         {
             SqlParameter[] param = new SqlParameter[] {
 

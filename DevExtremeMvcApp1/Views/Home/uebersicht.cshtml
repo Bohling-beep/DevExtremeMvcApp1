@@ -38,38 +38,81 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Kennzeichen)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Marke)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Modell)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Fahrzeughalter)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Niederlassung)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Kraftstoff)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Neuwagen)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Status)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kennzeichen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Marke)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Modell)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fahrzeughalter)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Niederlassung)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kraftstoff)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Neuwagen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
 
 </table>
+
+@(Html.DevExtreme().DataGrid<DevExtremeMvcApp1.Models.GetIndexUebersicht_Result>()
+    .DataSource(ds => ds.WebApi()
+        .RouteName("uebersicht_datenApi")
+        .LoadAction("Get")
+        .InsertAction("Post")
+        .UpdateAction("Put")
+        .DeleteAction("Delete")
+        .Key("Id")
+    )
+    .RemoteOperations(true)
+    .Columns(columns => {
+
+        columns.AddFor(m => m.Id);
+
+        columns.AddFor(m => m.Kennzeichen);
+
+        columns.AddFor(m => m.Marke);
+
+        columns.AddFor(m => m.Modell);
+
+        columns.AddFor(m => m.Fahrzeughalter);
+
+        columns.AddFor(m => m.Niederlassung);
+
+        columns.AddFor(m => m.Kraftstoff);
+
+        columns.AddFor(m => m.Neuwagen);
+
+        columns.AddFor(m => m.Status);
+    })
+    .Editing(e => e
+        .AllowAdding(true)
+        .AllowUpdating(true)
+        .AllowDeleting(true)
+    )
+)
+
+@Html.DevExpress().BinaryImage(settings =>
+{
+        settings.Name = "BinaryImage";
+    }).GetHtml()
